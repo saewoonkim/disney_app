@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './components/Nav';
 import styled from'styled-components';
 import Banner from './components/Banner';
+import Category from './components/Category';
 
 //역슬레시는 루트 다시 처음으로 돌아간다
 //ppt 자료 참조 온클릭.
@@ -10,6 +11,7 @@ function App() {
     <Container>
       <Nav />
       <Banner />
+      <Category/>
     </Container>
   );
 }
