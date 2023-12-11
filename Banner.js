@@ -95,12 +95,12 @@ const Container = styled.div`
 
 const HomeContainer = styled.div`
   width: 100%;
-  height: 100vh;
+  height: auto;
 `;
 
 const Iframe = styled.iframe`
   width: 100%;
-  height: 100%;
+  height: 80vh;
   z-index: -1;
   opacity: 1.65;
   border: none;
@@ -113,6 +113,10 @@ const Iframe = styled.iframe`
     width: 100%;
     height: 100%;
     
+  }
+
+  @media (max-width: 768px) {
+    height: 30vh;
   }
 `;
 

@@ -3,6 +3,8 @@ import Nav from './components/Nav';
 import styled from'styled-components';
 import Banner from './components/Banner';
 import Category from './components/Category';
+import Row from './components/Row';
+import request from './api/requests';
 
 //역슬레시는 루트 다시 처음으로 돌아간다
 //ppt 자료 참조 온클릭.
@@ -12,6 +14,10 @@ function App() {
       <Nav />
       <Banner />
       <Category/>
+      <Row title='Trending Now' id='TN' fetchUrl={request.fetchNowPlaying}/>
+      <Row title='Top Rated' id='TR' fetchUrl={request.fetchTopRated}/>
+      <Row title='Action Movies' id='AM' fetchUrl={request.fetchActionMovies}/>
+      <Row title='Comedy Movies' id='CM' fetchUrl={request.fetchComedyMovies}/>
     </Container>
   );
 }

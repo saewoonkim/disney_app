@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* .button {
+  background: #000;
+  transition: opacity 2s;
+  
+}
+.button:hover {
+  background: #ff0000;
+  opacity: 0;
+} 트렌지션 커서 가따대면 깜빡이면서 사라지는현상*/
+
+
+
+/* 
+.box {
+  border:  2px solid #ff0000;
+  width: 200px;
+  height: 200px;
+  transition-duration: 2s;
+  transform: scale(1.0);
+}
+
+.box:hover {
+  transform: scale(0.5);
+} 마우스를 가져다 대면 상자가 작아짐*/
+
+
+
+/* .box {
+  display: inline-block;
+  border:  2px solid #ff0000;
+  width: 100px;
+  height: 100px;
+  animation:  skew 3s infinite;
+  transform: skew(20deg);
+}
+
+@keyframes skew {
+  0% {
+    transform: skew(20deg);
+  }
+  100% {
+    transform: skew(-20deg);
+  }
+} 박스가 비틀어지는 애니메이션 효과*/
+
+
+/* .box {
+  display: inline-block;
+  border:  2px solid #ff0000;
+  width: 100px;
+  height: 100px;
+  animation:  skew 3s infinite;
+}
+
+@keyframes skew {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 50px);
+  }
+} 박스가 대각선 아래로 움직이는 효과*/
+
+
+/* .box {
+  display: inline-block;
+  border:  2px solid #ff0000;
+  width: 100px;
+  height: 100px;
+  animation:  roll 3s infinite;
+  transform: rotate(30deg);
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 박스가 돌아가는 애니메이션 효과*/
